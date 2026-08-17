@@ -69,8 +69,7 @@ async function roomProof(room, passphrase) {
 }
 
 function wsUrl() {
-  const protocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-  return `${protocol}//${location.host}/api/ws`;
+  return 'wss://test-ig-7tjb.onrender.com/api/ws';
 }
 
 function setSetupMessage(text, error = false, success = false) {
